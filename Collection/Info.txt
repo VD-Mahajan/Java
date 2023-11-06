@@ -1,0 +1,56 @@
+There are Interfaces:
+
+1) List        		5) Map			9) Collection
+2) Set			6) SortedMap
+3) SortedSet		7) NavigableMap
+4) NavigableSet		8) Queue		
+
+
+					
+
+					Hierarchy
+
+					Iterable
+					   |
+				       Collection
+	
+	+---------------------------------------------------------------------------------------------------------+
+	|				        |								  |	
+	List(I)					Set								Queue (I)
+	|				 	|								   |	
+	|				 +------------------------------+					   |
+	|- LinkedList (c)		 |				|				+----------------------+
+	|				 |- HashSet (c) 1.2		|- SortedSet (I) 1.2		|			|
+	|- ArrayList (c)		 |				|				|			|
+	|				 |				|				+- PriorityQueue (c)	+- Deque (I)
+	+- Vector  (c)			 |				|- NavigableSet (I) 1.6
+	   |				 +- LinkedHashSet (c) 1.4	|
+	   +-Stack (c)			 				|
+	   								+- TreeSet (c) 1.2
+
+
+
+
+
+
+
+
+					Map (I) ---------> HashMap (c) ---------> LinkedHashMap (c)
+					 |	
+					 |
+					 |
+					 |- SortedMap (I)
+					 |
+					 |
+					 |
+					 |- NavigableMap (I)
+					 |
+					 |
+					 |
+					 +- TreepMap (c)
+
+
+
+
+
+
