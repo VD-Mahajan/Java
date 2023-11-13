@@ -9,7 +9,7 @@ public class LinkedListDemo {
 		ll.add(20);
 		ll.addFirst(10);
 		ll.addLast(30);
-		
+
 		System.out.println(ll);
 		System.out.println(ll.getFirst());
 		System.out.println(ll.getLast());

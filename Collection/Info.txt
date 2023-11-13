@@ -10,14 +10,14 @@ There are Interfaces:
 
 					Hierarchy
 
-					Iterable
-					   |
-				       Collection
-	
+											Iterable
+											   |
+										   Collection
+											   |
 	+---------------------------------------------------------------------------------------------------------+
-	|				        |								  |	
-	List(I)					Set								Queue (I)
-	|				 	|								   |	
+	|				        |											  |	
+	List(I)					Set											Queue (I)
+	|				 	|								   				   |	
 	|				 +------------------------------+					   |
 	|- LinkedList (c)		 |				|				+----------------------+
 	|				 |- HashSet (c) 1.2		|- SortedSet (I) 1.2		|			|
