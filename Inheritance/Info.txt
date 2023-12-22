@@ -1,0 +1,14 @@
+/*
+
+ Advantages of Inheritance:
+ 1)Reduce Redundancy of code
+ 2)Improves performance of application
+ 3)Reduce time required for execution
+
+ Types of Inheritance :
+ 1)Single inheritance 
+ 2)Multilevel Inheritance 
+ 3)Multiple Inheritance
+ 4)Hybrid Inheritance 
+ 5)Hierarchical Inheritance
+*/
