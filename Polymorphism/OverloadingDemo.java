@@ -3,7 +3,10 @@ package Polymorphism;
 /*
  * Rules
  * 1) Method signature
- * 2) Return Type
+ * 2) Return Type (we can change return type, we cannot achieve overloading just by changing return type)
+ * eg. void add(){}   &&  int add(){return 0}  -not valid 
+ * 	   void add(int a,int b){}   &&  int add(int a,int b,int c){return 0}  -valid
+ * 3) Exception (Don't have any effect of exception on overloading methods)
  */
 
 
