@@ -46,7 +46,6 @@ public class IntToString {
 	public static void main(String[] args) {
 		
 		printString(12340);
-		System.out.println("Hello");
 		
 	}
 }
