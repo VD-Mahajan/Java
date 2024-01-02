@@ -1,5 +1,7 @@
 package InnerClass;
 
+import InnerClass.Outer1.Inner1;
+
 class Outer1{
 	
 	int x = 10;
@@ -21,6 +23,6 @@ public class NormalInnerClassDemo1 {
 	public static void main(String[] args) {
 		Outer1 obj = new Outer1();
 		Outer1.Inner1 obj1 = obj.new Inner1();
-		System.out.println(obj1.z);
+		System.out.println(Inner1.z);
 	}
 }
