@@ -7,7 +7,6 @@ public class HollowReverseTrianglePattern {
 				System.out.print(" ");
 			}
 			for(int j=i;j>=1;j--) {
-//				System.out.print("* ");
 				if(j==i || i==x || j==1)
 					System.out.print("* ");
 				else
