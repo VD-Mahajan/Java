@@ -11,7 +11,7 @@ public class IpAddress {
 			if(temp<0) {
 				System.out.println("Invalid Ip Address");
 				break;
-			}		
+			}
 		}
 	}
 }
