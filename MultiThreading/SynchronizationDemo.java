@@ -3,7 +3,7 @@ package MultiThreading;
 class Demo extends Thread{
 	static int value=1;
 	
-	private void painting() {
+	private synchronized void painting() {
 		for(int i=1;i<=15;i++) {
 			System.out.println(value++);					
 		}
