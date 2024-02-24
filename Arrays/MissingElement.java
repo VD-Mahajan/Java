@@ -10,6 +10,5 @@ public class MissingElement {
 		}
 		
 		System.out.println(((arr.length+1)*((arr.length+2))/2)-sum);
-		
 	}
 }
