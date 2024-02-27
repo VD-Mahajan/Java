@@ -1,7 +1,7 @@
-package Arrays;
+package Arrays;import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
 public class MajorityElement {
-	static int num;
+	static int num=Integer.MIN_VALUE;
 	public static void main(String[] args) {
 		int[] arr = new int[] {1,2,3,3,3,3,4,6,7,3,3};
 		for (int i = 0; i < arr.length; i++) {
@@ -15,6 +15,10 @@ public class MajorityElement {
 				num=arr[i];
 			}
 		}
-		System.out.println(num);
+		if(num==Integer.MIN_VALUE) {
+			System.out.println("Array dont have majority element");
+		}else {
+			System.out.println(num);			
+		}
 	}
 }
