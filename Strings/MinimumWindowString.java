@@ -8,7 +8,6 @@ public class MinimumWindowString {
 		int minLength = Integer.MAX_VALUE;
 		String finalAnswer = "";
 		
-		
 		for (int i = 0; i < str.length(); i++) {
 			for (int j = i; j < str.length(); j++) {
 				String temp = str.substring(i, j+1);
