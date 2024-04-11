@@ -6,6 +6,7 @@
  3)Reduce time required for execution
 
  Types of Inheritance :
+ 
  1)Single inheritance 
  2)Multilevel Inheritance 
  3)Multiple Inheritance
