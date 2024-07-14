@@ -1,13 +1,26 @@
 package Strings;
 
-public class CharArrayToString {
+class A{
+	static int j = 19;
+	static void show() {
+		System.out.println("In static show A "+ j);
+	}
+}
+
+class B extends A{
+//	static int j = 20;
+	static void show() {
+		System.out.println("In static show B " + j);
+		j++;
+	}
+	
+}
+
+public class CharArrayToString{
 	public static void main(String[] args) {
-		char[] arr = {'a','b','c','d','e','f'};
-		
-		String str = new String(arr);
-		System.out.println(str);
-		
-		String str2 = new String(arr,2,2);  // Understood ❤️
-		System.out.println(str2);
+//		A.show();
+		B.show();
+//		new A().show();
+		new B().show();
 	}
 }

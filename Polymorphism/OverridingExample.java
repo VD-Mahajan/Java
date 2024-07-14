@@ -1,4 +1,7 @@
 package Polymorphism;
+
+import java.io.IOException;
+
 /*
  * Rules
  * 1)Return Type Must be same if it is primitive types such as int,float,void 
@@ -18,7 +21,7 @@ class Parent{
 	Object name() {
 		return "Parent";
 	}
-	int result() throws Exception{
+	int result()throws IOException{
 		return 1;
 	}
 }
@@ -30,7 +33,7 @@ class Child extends Parent{
 	String name() {
 		return "Child";
 	}
-	int result() throws ArrayIndexOutOfBoundsException{
+	int result() {
 		return 0;
 	}
 }
